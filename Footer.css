@@ -1,0 +1,24 @@
+.footer {
+    text-align: center;
+    background-color: #007575;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    font-size: 16px;
+}
+
+
+    .footer h5 {
+        margin: 6px 0; /* Reduce margin between rows */
+        font-weight: normal; /* Optional: Makes it less bold for better readability */
+    }
+.footer-logo {
+    padding: 3px;
+    width: 70px; /* Adjust size */
+    height: 50px;
+    margin-bottom: 5px;
+}

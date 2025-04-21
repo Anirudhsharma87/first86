@@ -1,0 +1,86 @@
+﻿.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    text-align: center;
+    background-image: url('../assets/login.png'); /* Ensure correct path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.3); /* ✅ Fully transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.login-input {
+    width: 32ch;  /* Adjust width dynamically based on character count */
+    min-width: 150px; /* Ensures minimum width */
+    max-width: 100%; /* Prevents overflow */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-button {
+    padding: 10px;
+    background: linear-gradient(to right, #FF0000, #FF69B4);
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+    .login-button:hover {
+        background: darkblue;
+    }
+
+.password-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    width: 100%;
+}
+
+    .password-container .login-input {
+        flex: 1; /* Takes up remaining space */
+        border: none;
+        outline: none;
+        padding: 10px;
+        width: 22ch;
+    }
+
+    .password-container .eye-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        padding: 5px;
+
+    }
+
+.header {
+    background-image: url('../assets/leftside.png');
+    background-size: 140px 50px; /* Set a small size */
+    background-position: left center; /* Align to the left */
+    background-repeat: no-repeat;
+    height: 60px; /* Adjust the height */
+    display: flex;
+    align-items: center;
+    padding-left: 60px; /* Space for the image */
+    background-color: white; /* Optional background color */
+    color: white;
+}
